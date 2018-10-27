@@ -1,0 +1,57 @@
+﻿npm config set puppeteer_download_host https://storage.googleapis.com.cnpmjs.org
+npm config set chromedriver_cdnurl https://npm.taobao.org/mirrors/chromedriver/
+npm config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
+npm config set registry https://registry.npm.taobao.org/
+
+
+安装pm2
+npm i -g pm2
+pm2 start PrerenderServer路径/server.js --name PrerenderServer --watch
+# 生成开机启动脚本
+pm2 startup systemd
+pm2 save
+
+
+
+配置nginx
+location ~* \.(eot|otf|ttf|woff|woff2)$ {
+    add_header Access-Control-Allow-Origin *;
+}
+location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|flv|mp4|ico)$ {
+    expires max;
+    access_log off;
+}
+location ~ .*\.(js|css)?$ {
+    expires max;
+    access_log off;
+}
+location ~ /\.ht {
+    deny all;
+}
+location / {
+    try_files $uri @prerender;
+}
+location @prerender {
+    set $prerender 0;
+
+    if ($http_user_agent ~* "baiduspider|twitterbot|facebookexternalhit|rogerbot|linkedinbot|embedly|quora link preview|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator") {
+        set $prerender 1;
+    }
+    if ($args ~ "_escaped_fragment_") {
+        set $prerender 1;
+    }
+    if ($http_user_agent ~ "Prerender") {
+        set $prerender 0;
+    }
+    if ($uri ~* "\.(js|css|xml|less|png|jpg|jpeg|gif|pdf|doc|txt|ico|rss|zip|mp3|rar|exe|wmv|doc|avi|ppt|mpg|mpeg|tif|wav|mov|psd|ai|xls|mp4|m4a|swf|dat|dmg|iso|flv|m4v|torrent|ttf|woff|svg|eot)") {
+        set $prerender 0;
+    }
+    if ($prerender = 1) {
+        set $prerender "127.0.0.1:3000";
+        rewrite .* /$scheme://$host$request_uri? break;
+        proxy_pass http://$prerender;
+    }
+    if ($prerender = 0) {
+        rewrite .* /index.html break;
+    }
+}
