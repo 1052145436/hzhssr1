@@ -1,0 +1,234 @@
+jobJson:{
+                    campusRecruitment:{ // 社会招聘
+                        // 技术研发体系
+                        jiShuList:[
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 物流体系
+                        wuLiuList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 供应链体系
+                        gongYingLianList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 营销体系
+                        yinXiaoList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 运营体系
+                        yunYingList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 职位体系
+                        zhiNengList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ]
+                    },
+                    campusRecruitment:{ // 校园招聘
+                        // 技术研发体系
+                        jiShuList:[
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 物流体系
+                        wuLiuList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 供应链体系
+                        gongYingLianList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 营销体系
+                        yinXiaoList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 运营体系
+                        yunYingList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ],
+                        // 职位体系
+                        zhiNengList:[ //
+                            {
+                                // 职位名称
+                                positionName:'前端开发工程师',
+                                // 招聘人数
+                                numberOfRecruits:'20人',
+                                // 工作地址
+                                workingAddress:'广东广州',
+                                // 职位描述
+                                workDesc:{
+                                    // 岗位职责
+                                    jobResponsibilities:'依据产品需求完成高质量的Web前端开发和维护；',
+                                    // 岗位要求
+                                    jobRequirements:'熟悉各种Web前端技术，深刻理解Web标准，对可用性、\n' +
+                                        '可访问性等相关知识有实际的了解和实践经验；'
+                                }
+                            }
+                        ]
+                    }
+                }

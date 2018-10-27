@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="renderer" content="webkit">
+    <meta content="email=no" name="format-detection" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="fragment" content="!">
+    <link rel="shortcut icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Global官网</title>
+    <!--[if lt IE 9]>
+    <style type="text/css">
+        #kill-ie {
+            position: fixed;
+            z-index: 999999;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+        }
+        #kill-ie .tips {
+            color: #222;
+            padding: 20px 20px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 36px;
+            background-color: #FFFEEC;
+            position: absolute;
+            z-index: 10;
+            right: 0;
+            left: 0;
+        }
+        #kill-ie .tips a {
+            color: #fff;
+            display: inline-block;
+            padding: 0 15px;
+            border-radius: 3px;
+            text-decoration: none;
+            background-color: #F33F40
+        }
+        #kill-ie .mask {
+            filter: alpha(opacity=75);
+            opacity: .75;
+            background-color: #000;
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <![endif]-->
+</head>
+<body>
+    <!--[if lt IE 9]>
+    <div id="kill-ie">
+        <div class="mask"></div>
+        <div class="tips">您的浏览器版本过低，为了更好的体验，请升级您的浏览器。<a href="//browsehappy.com/" rel="nofollow" target="_blank">马上升级</a></div>
+    </div>
+    <![endif]-->
+    <noscript>
+        <strong>We're sorry but web doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <div id="map" style="display: none; z-index: -1;"></div>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=YIxOPDQWpDyxGGeNsCP8fvFZgxg6iQaz"></script>
+    <!-- built files will be auto injected -->
+</body>
+</html>
